@@ -3,7 +3,7 @@ let searchBtn = document.querySelector("#searchBtn");
 let result = document.querySelector("#result");
 
 searchBtn.addEventListener("click", function () {
-  result.innerHTML = ""; // გაწმენდა
+  result.innerHTML = "";
 
   let username = usernameInput.value;
   let url = "https://api.github.com/users/" + username;
